@@ -1,0 +1,18 @@
+{
+  "username" : "admin",
+  "password" : "admin",
+  "congatsText" : "Congratulations! You must have the proper credentials.",
+  "authHeaderText" : "Basic Auth",
+  "poweredBy" : "Powered by",
+  "hoverText" : "Hovers",
+  "hoverDescription" : "Hover over the image for additional information",
+  "userNameOne" : "name: user1",
+  "userNameTwo" : "name: user2",
+  "userNameThree" : "name: user3",
+  "viewProfileText": "View profile",
+  "sliderHeaderText" : "Horizontal Slider",
+  "sliderDescriptionText" : "Set the focus on the slider (by clicking on it) and use the arrow keys to move it right and left. Or click and drag the slider with your mouse. It will indicate the value of the slider to the right.",
+  "sliderMinRange" : "min",
+  "sliderMaxRange" : "max",
+  "borkenImageText" :  "Broken Images"
+}

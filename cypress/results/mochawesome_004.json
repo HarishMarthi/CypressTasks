@@ -1,0 +1,162 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-08-16T13:52:25.643Z",
+    "end": "2020-08-16T13:54:44.644Z",
+    "duration": 139001,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2a14aa03-c10b-482a-977b-3b040dbde623",
+      "title": "",
+      "fullFile": "cypress\\integration\\TestSuite.js",
+      "file": "cypress\\integration\\TestSuite.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b13c0c50-ccf4-437f-9ba7-f008948524a7",
+          "title": "Interview Tasks App Suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify Broken Images Count Calcutaion",
+              "fullTitle": "Interview Tasks App Suite Verify Broken Images Count Calcutaion",
+              "timedOut": null,
+              "duration": 53917,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "brokenImagesPage.visitBrokenImagesApp(Cypress.config().brokenImagesAppURL);\nbrokenImagesPage.verifyBrokenImagesText(this.data.borkenImageText);\nbrokenImagesPage.getBrokenImagesCount();",
+              "err": {},
+              "uuid": "95f07800-3009-4d38-907d-056cff9bfea1",
+              "parentUUID": "b13c0c50-ccf4-437f-9ba7-f008948524a7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify Basic Authentication and Login Details",
+              "fullTitle": "Interview Tasks App Suite Verify Basic Authentication and Login Details",
+              "timedOut": null,
+              "duration": 21237,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "basicAuthPage.enterAppUrlWithAuthDetails(Cypress.config().httpsBase, this.data.username, this.data.password, Cypress.config().basicAuthAppURL);\nbasicAuthPage.verifyBasicAutheHeaderText(this.data.authHeaderText);\nbasicAuthPage.verifyCongratsText(this.data.congatsText);",
+              "err": {},
+              "uuid": "8e4b49da-cfea-4808-ba20-bb866a641a83",
+              "parentUUID": "b13c0c50-ccf4-437f-9ba7-f008948524a7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify Horizontal Slider Max and Min Range Values",
+              "fullTitle": "Interview Tasks App Suite Verify Horizontal Slider Max and Min Range Values",
+              "timedOut": null,
+              "duration": 16683,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "sliderPage.visitSliderApp(Cypress.config().sliderAppURL);\nsliderPage.verifySliderPageTexts(this.data.sliderHeaderText, this.data.sliderDescriptionText);\nsliderPage.verifySliderMinMaxRange(this.data.sliderMaxRange);\nsliderPage.verifySliderMinMaxRange(this.data.sliderMinRange);",
+              "err": {},
+              "uuid": "a1e66a57-a1d9-42fc-8ba8-73c943be2423",
+              "parentUUID": "b13c0c50-ccf4-437f-9ba7-f008948524a7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify hover images with user details",
+              "fullTitle": "Interview Tasks App Suite Verify hover images with user details",
+              "timedOut": null,
+              "duration": 30824,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "hoverImagesPage.visitHoverImagesApp(Cypress.config().hoversAppURL);\nhoverImagesPage.verifyHeaderTextValues(this.data.hoverText, this.data.hoverDescription);\nhoverImagesPage.verifyHoverImages(this.data.userNameOne, this.data.userNameTwo, this.data.userNameThree, this.data.viewProfileText);",
+              "err": {},
+              "uuid": "1fa63f74-20ba-4be6-b80a-bdcd0be253f0",
+              "parentUUID": "b13c0c50-ccf4-437f-9ba7-f008948524a7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "95f07800-3009-4d38-907d-056cff9bfea1",
+            "8e4b49da-cfea-4808-ba20-bb866a641a83",
+            "a1e66a57-a1d9-42fc-8ba8-73c943be2423",
+            "1fa63f74-20ba-4be6-b80a-bdcd0be253f0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 122661,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

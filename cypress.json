@@ -1,0 +1,17 @@
+{
+    "chromeWebSecurity": false,
+    "experimentalSourceRewriting": true,
+    "brokenImagesAppURL": "https://the-internet.herokuapp.com/broken_images",
+    "basicAuthAppURL": "the-internet.herokuapp.com/basic_auth",
+    "sliderAppURL": "https://the-internet.herokuapp.com/horizontal_slider",
+    "hoversAppURL": "https://the-internet.herokuapp.com/hovers",
+    "imagesBaseURL" : "https://the-internet.herokuapp.com/",
+    "reporter": "mochawesome",
+    "httpsBase" : "https://",
+    "reporterOptions": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
+}
