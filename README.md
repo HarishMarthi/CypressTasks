@@ -21,12 +21,17 @@ IDE : Visual Studio Code
 
 ==== 1st Method ============
 
-Open the terminal in Visual StudiocIDE then  enter the command as "./node_modules/.bin/cypress run --browser chrome"
+Open the terminal in Visual Studio Code IDE then enter the command as "./node_modules/.bin/cypress run --browser chrome"
 Then test will run automatically and the results will be displayed in terminal. 
 Video also captured while executing the script, and it will be saved under "cyperss/video" folder
 
 
 ==== 2nd Method =============
 
-Open the terminal in Visual StudiocIDE then enter the command as "npm run test"
+Open the terminal in Visual Studio Code IDE then enter the command as "npm run test"
+
+==== 3rd Method =============
+
+Open the terminal in Visual Studio Code IDE then enter the command as "./node_modules/.bin/cypress open" 
+then a wndow will open with cypress tool in that select "TestSuite.js" then test exection will start.
 
