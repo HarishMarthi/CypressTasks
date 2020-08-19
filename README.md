@@ -6,23 +6,27 @@
 
 ===== Tools Using =====
 
-Programming Language : JavaScript,NPM,NodeJS 
+Programming Language : JavaScript
 
 Automation Tool : Cypress 
 
 Framework Used : Mocha (with Page Object Model)
+
+Server : NodeJS
+
+IDE : Visual Studio Code
 
 ===== How to Run =====
 
 
 ==== 1st Method ============
 
-Open the Terminal and enter the command as "./node_modules/.bin/cypress run --browser chrome"
+Open the terminal in Visual StudiocIDE then  enter the command as "./node_modules/.bin/cypress run --browser chrome"
 Then test will run automatically and the results will be displayed in terminal. 
 Video also captured while executing the script, and it will be saved under "cyperss/video" folder
 
 
-== 2nd Method =============
+==== 2nd Method =============
 
-Open the terminal enter the command as "npm run test"
+Open the terminal in Visual StudiocIDE then enter the command as "npm run test"
 
