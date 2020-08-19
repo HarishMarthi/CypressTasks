@@ -19,5 +19,5 @@ Video also will be captured while executing the script, and it will be saved und
 
 == 2nd way of Running =====
 
-Open the terminal enter the command as "npm run tests"
+Open the terminal enter the command as "npm run test"
 
