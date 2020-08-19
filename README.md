@@ -16,6 +16,7 @@ Framework Used : Mocha (with Page Object Model)
 
 
 ==== 1st Method ============
+
 Open the Terminal and enter the command as "./node_modules/.bin/cypress run --browser chrome"
 Then test will run automatically and the results will be displayed in terminal. 
 Video also captured while executing the script, and it will be saved under "cyperss/video" folder
